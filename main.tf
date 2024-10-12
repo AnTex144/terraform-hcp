@@ -1,7 +1,7 @@
-resource random_string string {
-  length  = 64
+resource "random_string" "string" {
+  length  = var.length
   upper   = true
   lower   = true
-  numeric  = true
+  numeric = true
   special = true
 }
