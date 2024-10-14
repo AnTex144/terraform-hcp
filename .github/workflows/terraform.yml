@@ -46,7 +46,8 @@ name: "Terraform"
 
 on:
   push:
-    branches: ["hcp"]
+    branches:
+      - hcp
   pull_request:
 
 permissions:
