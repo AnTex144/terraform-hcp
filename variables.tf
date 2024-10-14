@@ -1,5 +1,5 @@
 variable "length" {
   type        = number
-  default     = 128
+  default     = 64
   description = "Length of string"
 }
